@@ -1,0 +1,179 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	min-height:100%;
+}
+
+body{
+	background-image:url("bg.png");
+	background-size:100% 110%;
+	background-position:top;
+	color:#222;
+}
+
+a:link, a:visited{
+	color:#000;
+}
+
+#page_wrapper{
+	width:100%; 
+	margin:auto;
+}
+
+#header
+{
+	background-image: url("Codes/Styles/bg.png")
+	height:2cm;
+	width: 100%;
+}
+#header_wrapper{
+	display:block;
+	position:absolute;
+	top:0;
+	background-color:#efc;
+	width:100%;
+}
+
+#logo{
+	position:relative;
+	
+	background-image:url("insideart/Codes/Files/logo12.png"); 
+
+	width:100%;
+	height:50px;
+}
+
+
+
+.toleft{
+	position:relative;
+	top:-50px;
+	left:60px;
+}
+
+#navmenu li{
+	display:block;
+	float:left;
+	
+	font-size:14pt;
+	font-weight:bold;
+	line-height:30px;
+}
+
+#navbar_wrapper{
+	display:block;
+	background-color:#eff;
+	width:100%;
+	position:relative;
+}
+
+#search_bar{
+	position:relative;
+	left:1px;
+	top:0px;
+}
+
+#login_fnc{
+	position:relative;
+	left:1050px;
+	top:-100px;
+	display:block;
+	height:50px;
+	width:50px;
+}
+
+#functions{
+	position:relative;
+	left:800px;
+}
+
+#body_wrapper{
+	position:relative;
+	left:100px;
+	top:125px;
+}
+
+#body{
+	position:relative;
+	left:100px;
+	top:125px;
+}
+
+#message{
+	position:absolute;
+	left:100px;
+	top:125px;
+}
+#viewmsg{
+	position:absolute;
+	top:25px;
+	left:380px;
+}
+#sendmsg{
+	position:absolute;
+	top:220px;
+	left:100px;
+
+}
+
+#categories_menu{
+	list-style: none;
+	float:left;
+	width:200px;
+	display:block;
+	position:absolute;
+	opacity:0.9;
+	top:20px;
+	}
+
+#categories_menu a{
+	border:1px solid #555;
+	width:200px;
+	display:block;
+	height:25px;
+	font-size:14pt;
+	background-color:gray;
+}
+#categories_menu a.active{
+	border:1px solid #123;
+	width:200px;
+	display:block;
+	height:25px;
+	font-size:14pt;
+	background-color:#aaa;
+}
+
+#categories_menu a:hover{
+	border:1px solid #123;
+	width:200px;
+	display:block;
+	height:25px;
+	font-size:14pt;
+	background-color:#aaa;
+}
+
+#upload{
+	position:absolute;
+	top:130px;
+	left:250px;
+}
+
+#body_browse{
+	position:absolute;
+	top:125px;
+}
+
+#content{
+	position:absolute;
+	left:250px;
+}
+
+#comments_section{
+	overflow:auto;
+	height:375px;
+	width:500px;
+	line-height:-100px;
+}
